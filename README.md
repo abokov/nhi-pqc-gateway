@@ -22,6 +22,22 @@ Identity is moving from Human-to-Machine (H2M) to Machine-to-Machine (M2M) at an
 
 ---
 
+## 🏗️ Architecture: The PQC Edge Proxy
+
+This gateway sits at the network edge, terminating the heavy ML-KEM/ML-DSA quantum cryptography so the internal API network and AI Agents can communicate using lightweight, optimized tokens.
+
+```mermaid
+graph TD
+    A[🤖 External AI Agent] -->|Quantum-Safe mTLS<br>ML-DSA Signature| B(🛡️ NHI PQC Gateway<br>C++ Edge Proxy)
+    B -->|Verify Signature<br>Terminate PQC| C{🔐 Okta Policy Engine}
+    C -->|OPA Risk Check: LOW| D[Issue Scoped Ephemeral JWT]
+    D -->|Standard TLS 1.3<br>Low Latency| E[🗄️ Internal AI Agent / Resource]
+    
+    style B fill:#1e88e5,stroke:#0d47a1,stroke-width:2px,color:#fff
+    style C fill:#00297a,stroke:#000,stroke-width:2px,color:#fff
+```
+
+
 ## 🛠️ Technical Stack
 
 * **Core Engine:** C++20 (Optimized memory arenas for handling large PQC keys)
