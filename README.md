@@ -22,6 +22,8 @@ Identity is moving from Human-to-Machine (H2M) to Machine-to-Machine (M2M) at an
 
 ---
 
+
+
 ## 🏗️ Architecture: The PQC Edge Proxy
 
 This gateway sits at the network edge, terminating the heavy ML-KEM/ML-DSA quantum cryptography so the internal API network and AI Agents can communicate using lightweight, optimized tokens.
