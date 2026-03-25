@@ -10,7 +10,7 @@ As enterprises transition to Post-Quantum Cryptography (PQC), traditional Identi
 
 `nhi-pqc-gateway` is a C++ offload engine that handles quantum-safe cryptographic termination at the edge, ensuring secure Agent-to-Agent (A2A) federation without degrading LLM workflow speeds.
 
----
+-----
 
 ## 🎯 Strategic Value (The PQC + AI Intersection)
 
