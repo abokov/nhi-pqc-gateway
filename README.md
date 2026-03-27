@@ -4,6 +4,9 @@
 ![Standard](https://img.shields.io/badge/Crypto-FIPS%20204%20(ML--DSA)-green.svg)
 ![Ecosystem](https://img.shields.io/badge/Ecosystem-Okta%20%7C%20OIDC-orange.svg)
 
+This framework is demoing and simulating real-life workflow and protocols ( in future releases ) with simplified implementation of key parts.
+
+
 **High-performance, quantum-resistant proxy for high-velocity Non-Human Identity (NHI) and Agentic AI workloads.**
 
 As enterprises transition to Post-Quantum Cryptography (PQC), traditional Identity Providers face a critical bottleneck: PQC signatures (like ML-DSA) are significantly larger than RSA/ECC. For autonomous AI agents executing thousands of micro-transactions per second, standard PQC handshakes introduce paralyzing latency. 
