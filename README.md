@@ -4,7 +4,8 @@
 ![Standard](https://img.shields.io/badge/Crypto-FIPS%20204%20(ML--DSA)-green.svg)
 ![Ecosystem](https://img.shields.io/badge/Ecosystem-Okta%20%7C%20OIDC-orange.svg)
 
-This framework is demoing and simulating real-life workflow and protocols ( in future releases ) with simplified implementation of key parts.
+This framework is demoing and simulating real-life workflow and protocols ( in future releases ) with simplified implementation of key parts, like
+simulating a real-life wrapper around the Open Quantum Safe (liboqs) C-library.
 
 
 **High-performance, quantum-resistant proxy for high-velocity Non-Human Identity (NHI) and Agentic AI workloads.**
