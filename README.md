@@ -5,7 +5,7 @@
 ![Ecosystem](https://img.shields.io/badge/Ecosystem-Okta%20%7C%20OIDC-orange.svg)
 
 This framework is demoing and simulating real-life workflow and protocols ( in future releases ) with simplified implementation of key parts, like
-simulating a real-life wrapper around the Open Quantum Safe (liboqs) C-library.
+simulating a real-life wrapper around [liboqs](https://github.com/open-quantum-safe/liboqs)
 
 
 **High-performance, quantum-resistant proxy for high-velocity Non-Human Identity (NHI) and Agentic AI workloads.**
